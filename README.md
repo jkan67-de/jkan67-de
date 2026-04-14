@@ -8,7 +8,7 @@
 
 ## Currently shipping
 
-**Job Search Control Center** *(publishing soon)* — An agentic job-search pipeline I'm building to run my own search. Three-phase Claude pipeline scores JD-to-profile fit, runs a visa-gate check, then generates Anschreiben hooks and STAR-format interview stories grounded in real work history. Pluggable evaluation framework, local-first, zero per-call cost.
+**Job Search Control Center** *(publishing soon)* — An agentic job-search pipeline I'm building to run my own search. Three-phase Claude pipeline scores JD-to-profile fit, runs a visa-gate check, then generates Anschreiben hooks and STAR-format interview stories grounded in real work history. Pluggable evaluation framework, local-first, runs entirely on a Claude Code subscription.
 
 `Python` · `FastAPI` · `Claude Agent SDK` · `YAML`
 
