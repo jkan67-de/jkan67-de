@@ -1,36 +1,43 @@
 # Josh Kannemeyer
 
-**Agentic AI & developer tooling.** I build systems that make engineers faster.
+Agentic AI & developer tooling. I run my own life on AI, and I build systems that help other engineers do the same.
 
-📍 Essen, Germany · Open to AI Engineer / DevEx / Platform roles (EU, remote)
+Based in Essen, Germany · Open to AI / DevEx / Platform roles (EU, remote) · [LinkedIn](https://www.linkedin.com/in/josh-kannemeyer/)
 
 ---
 
-## Currently shipping
+## How I work
 
-**Job Search Control Center** *(publishing soon)* — An agentic job-search pipeline I'm building to run my own search. Three-phase Claude pipeline scores JD-to-profile fit, runs a visa-gate check, then generates Anschreiben hooks and STAR-format interview stories grounded in real work history. Pluggable evaluation framework, local-first, runs entirely on a Claude Code subscription.
+I run my life on AI. Quest tracking, calendar, reviews, planning: all of it flows through agents I've built for myself. Not autopilot: Claude proposes, I decide what ships. What I care about most is designing agent systems that actually help a person think, decide, and ship.
 
-`Python` · `FastAPI` · `Claude Agent SDK` · `YAML`
+## What I focus on
 
-## Selected work
+**Reliability in agentic AI.** Verification-first design, anti-hallucination patterns, deterministic checks where safety matters.
 
-### 🤖 [b.ob](https://github.com/lukasholtkamp/b.ob) &nbsp;·&nbsp; differential-drive robot
+**The intersection of robotics and AI.** I like the messy parts where the model meets the physical world.
 
-Lead contributor (177 commits, ~83% of the codebase). ROS2 Humble running on a Raspberry Pi 4. Built two driving modes: teleoperation via controller, and assisted driving with Lidar-based SLAM, sensor-fused localization (IMU + wheel encoders + Extended Kalman Filter), and PID lateral control. Heading toward full autonomous navigation.
+**Meta-tooling that lifts the team.** Tutorials, shared skills libraries, dev tooling. If I learn something worth using, I try to make it available to whoever's around me.
 
-`C++` · `ROS2` · `Python` · `Lidar` · `Kalman Filter` · `Raspberry Pi`
+**Honest about AI collaboration.** Clear on what the model does and what I do. Verification is a feature, not a caveat.
 
-### ✈️ [Quadcopter](https://github.com/Desmondfotock28/Quadcopter) &nbsp;·&nbsp; open-source flight controller
+## Currently building
 
-Contributor on a C++ quadcopter project — documentation, repo structure, and build-system cleanup.
+**Life OS** *(personal system, in progress)*. Context engineering for my own life. A folder layout and a set of Claude skills I designed so agents can find the right information fast when I'm working on something. Quests (active projects, each with its own PM agent), a brain/memory layer of structured notes, and named rituals like weekly reviews. Scheduled workflows check in on what I'm working on. Wired to Apple Reminders, Google Calendar, and Google Workspace. Still being built out; inspired by Karpathy's personal wiki.
 
-`C++` · `embedded`
+**Job Search Control Center** *(publishing soon)*. An agentic job-search pipeline I'm using to evaluate real roles. Drop in your context (background, constraints, what matters to you) and a three-phase Claude pipeline scores JD-to-profile fit, then generates tailored application materials: Anschreiben hooks and STAR-format interview stories grounded in your actual work history. Human-in-the-loop by design: every draft is for review, not auto-send. Pluggable evaluation framework, local-first, runs on a Claude Code subscription.
+
+## Previous work
+
+**[b.ob](https://github.com/lukasholtkamp/b.ob)**. Differential-drive robot on ROS2 Humble + Raspberry Pi 4. Top contributor by commit count (177 of 213). Integrated and tuned the ROS navigation stack for teleop and assisted driving: Lidar SLAM, sensor-fused localization (IMU + encoders + EKF), PID lateral control.
+
+**[Quadcopter](https://github.com/Desmondfotock28/Quadcopter)**. Contributor on an open-source C++ quadcopter project. Documentation, repo structure, build-system cleanup.
+
+## What I'm digging into next
+
+Moving deeper into the model layer: running local models, fine-tuning smaller ones for specific tasks, understanding what's actually happening underneath the API call. Less "wrap Claude in a prompt," more "understand the model I'm calling."
 
 ## Stack
 
-**Building with today:** Python · TypeScript · Claude (Agent SDK, skills, tools) · FastAPI · Bash · Linux · Docker
-**Deep experience with:** C++ · ROS2 · Django · React · PostgreSQL · Raspberry Pi · sensor fusion
+**Building with:** Python, Claude Agent SDK, FastAPI, Bash, Linux, Docker. Automation-first: if I do something twice, it gets a script.
 
-## Reach me
-
-[LinkedIn](https://www.linkedin.com/in/josh-kannemeyer/)
+**Deep experience with:** C++, ROS2, Django, React, PostgreSQL, Raspberry Pi, sensor fusion.
