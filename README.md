@@ -34,7 +34,7 @@ Tooling that helps whoever's around me. If I work out something useful, I write 
 
 **Life OS** *(personal, ongoing)* — I run my life through a set of Claude agents: quests, calendar, planning, weekly reviews. Under the hood it's a folder layout and a library of skills I designed so the agents find the right context fast. Hooked into Apple Reminders, Google Calendar, and Google Workspace. Borrowed the idea from Karpathy's personal wiki.
 
-**Job Search Control Center** *(publishing soon)* — An agent pipeline I built to weigh up real openings. It scores how well a posting matches a profile, then drafts tailored application material from your actual history. Nothing auto-sends; every draft is for review. Runs locally on a Claude Code subscription.
+**Job Search Control Center** — An agent pipeline I built to weigh up real openings. It scores how well a posting matches a profile, then drafts tailored application material from your actual history. Nothing auto-sends; every draft is for review. Runs locally on a Claude Code subscription.
 
 ## Next
 
